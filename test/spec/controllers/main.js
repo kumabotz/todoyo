@@ -17,6 +17,10 @@ describe('Controller: MainCtrl', function () {
   }));
 
   it('should attach a list of Todo items to the scope', function () {
+    expect(scope.todos.length).toBe(0);
+    scope.addTodo('Item 1');
+    scope.addTodo('Item 2');
+    scope.addTodo('Item 3');
     expect(scope.todos.length).toBe(3);
   });
 });
