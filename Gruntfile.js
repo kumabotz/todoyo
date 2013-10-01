@@ -260,8 +260,8 @@ module.exports = function (grunt) {
           ]
         }, {
           expand: true,
+          cwd: 'appfog',
           dest: '<%= yeoman.dist %>',
-          cwd: 'heroku',
           src: '*',
           rename: function (dest, src) {
             var path = require('path');
