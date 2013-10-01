@@ -1,4 +1,4 @@
-yeoman-todo
+todoyo
 ======
 
 Create a TODO app with yeoman.
